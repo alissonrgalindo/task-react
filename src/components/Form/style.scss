@@ -1,0 +1,44 @@
+.group-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    .label {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .input-text {
+      border: 1px solid black;
+      padding: 8px;
+    }
+  }
+  
+  .actions {
+    margin-top: 16px;
+    text-align: right;
+    .btn {
+      background-color: black;
+      color: white;
+      border: 0;
+      padding: 8px 24px;
+      border-radius: 0;
+      border: 1px solid black;
+      transition: .2s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+  
+  .content-task {
+    padding: 20px 24px;
+    border: 1px solid black;
+    border-style: dashed;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
