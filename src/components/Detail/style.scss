@@ -125,6 +125,7 @@
       &:hover {
         background-color: white;
         color: black;
+        opacity: 1;
       }
       &--red {
         background: white;
@@ -133,6 +134,7 @@
         &:hover {
           background-color: #d55656;
           color: white;
+          opacity: 1;
         }
       }
       &--reverse {
@@ -142,6 +144,7 @@
         &:hover {
           background-color: black;
           color: white;
+          opacity: 1;
         }
       }
     }
